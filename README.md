@@ -1,50 +1,69 @@
 # 📈 StockSense AI
 
-![Banner](screenshots/banner.png)
-
-## 🚀 AI-Powered Stock Prediction Dashboard
+### AI-Powered Stock Prediction Dashboard
 
 Predict stock trends using Machine Learning, technical indicators, and interactive visualizations.
 
+![Banner](screenshots/banner.png)
 
+## ✨ Features
 
-### AI Prediction
+* 📊 Real-time Market Dashboard
+* 🤖 AI Stock Price Prediction
+* 📈 Technical Indicators
+* 🔄 Multi-Stock Comparison
+* 📉 Forecast Visualization
+* ⚡ Flask Backend
 
-![AI Prediction](screenshots/ai-prediction.png)
+## 🛠️ Tech Stack
 
+| Layer    | Technology            |
+| -------- | --------------------- |
+| Backend  | Flask                 |
+| Language | Python                |
+| ML       | NumPy                 |
+| Frontend | HTML, CSS, JavaScript |
+| Charts   | Chart.js              |
 
-### Compare Stocks
+## 📸 Application Preview
 
-![Compare Stocks](screenshots/compare.png)
+### AI Prediction Engine
 
-### Architecture
+![Prediction](screenshots/ai-prediction.png)
 
-![Architecture](screenshots/architecture.png) 
-# StockSense AI — ML Stock Prediction Terminal
+### Stock Comparison
 
-## ▶ Run in 3 steps
+![Compare](screenshots/compare.png)
 
-**Step 1** — Open this folder in VS Code
+### System Architecture
 
-**Step 2** — Open terminal (Ctrl + `) and run:
-```
-pip install flask flask-cors numpy
-```
+![Architecture](screenshots/architecture.png)
 
-**Step 3** — Start the server:
-```
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/swayamgupta592006-gif/StockSense-AI.git
+
+cd StockSense-AI
+
+pip install -r requirements.txt
+
 python app.py
 ```
 
-Then open → **http://127.0.0.1:5000**
+## 📂 Project Structure
 
+```text
+StockSense-AI
+├── app.py
+├── requirements.txt
+├── README.md
+├── screenshots
+└── templates
+    └── index.html
+```
 
----
+## 🎯 Project Goal
 
-## What you get
-- Market Overview with live ticker tape, sparkline cards, heatmap
-- AI Prediction: 60-day history + ML forecast with confidence bands
-- Volume chart + RSI indicator
-- Compare up to 4 stocks side by side
-- Pure Python ML (no sklearn) — Linear Regression with gradient descent
+StockSense AI demonstrates Machine Learning, Flask web development, data visualization, and financial analytics in a modern dashboard application.
 
