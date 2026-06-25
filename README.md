@@ -1,3 +1,25 @@
+# 📈 StockSense AI
+
+![Banner](screenshots/banner.png)
+
+## 🚀 AI-Powered Stock Prediction Dashboard
+
+Predict stock trends using Machine Learning, technical indicators, and interactive visualizations.
+
+
+
+### AI Prediction
+
+![AI Prediction](screenshots/ai-prediction.png)
+
+
+### Compare Stocks
+
+![Compare Stocks](screenshots/compare.png)
+
+### Architecture
+
+![Architecture](screenshots/architecture.png) 
 # StockSense AI — ML Stock Prediction Terminal
 
 ## ▶ Run in 3 steps
@@ -15,6 +37,7 @@ python app.py
 ```
 
 Then open → **http://127.0.0.1:5000**
+
 
 ---
 
